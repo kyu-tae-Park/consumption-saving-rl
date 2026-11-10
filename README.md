@@ -100,9 +100,14 @@ python scripts/plot_results.py
 
 DQN은 2→64→64→20 네트워크 구조를 사용하고, `torch.load(..., weights_only=True)`로 안전하게 state_dict만 로드합니다. PPO는 Stable-Baselines3의 `PPO.load(...)`를 사용합니다.
 
-## 보고서 및 제출 정보
+## 최종 PPT 보고서
 
-교수님 지침: PPT 보고서를 GitHub에 포함하고 Cyber Campus에도 제출해야 합니다. **보고서 첫 슬라이드에 학번/이름/GitHub URL을 기입**해야 합니다. PPT는 아직 제작 전이며 추가 후 링크를 여기 연결하면 됩니다.
+- [최종 PPT 연구보고서](Consumption_Saving_RL_Final_Report.pptx)
+- [최종 PDF 보고서](Consumption_Saving_RL_Final_Report.pdf)
+
+본 프로젝트의 연구 목적, 경제모형과 MDP 설계, DP 및 RL 알고리즘, 5-seed 실험, 성능 분석, 위험회피도 비교정태와 연구의 한계를 PPT 보고서에 정리했습니다.
+
+보고서 첫 슬라이드에는 작성자의 이름, 학번, GitHub 저장소 링크를 기재했습니다.
 
 ## 생성형 AI 활용 고지
 
